@@ -31,7 +31,7 @@ def settings():
 
 
 
-##Function to move mouse after we click evrything
+##Function to move mouse after we click everything
 def mouseMove():
     MI.moveTo(1425, 365)
 
