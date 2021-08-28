@@ -8,6 +8,8 @@ If something does not work, you may have to edit some sections for confidence (h
 
 This webpage may be deemed useful as I used it myself to help make this project: https://pyautogui.readthedocs.io/en/latest/screenshot.html#the-locate-functions
 
+This is used on medium settings.
+
 Cores to be used are Focused Fury, Frozen Rift, Improbability Gate, and Mini Rex P. If you are to use Mini Rex E, in the groups.py file in group A, change rex.png to rexE.png, and then in attack and attackHuman you might want to comment out rexNorm (with # before the line)
 
 Juggernaut script to be ran is juggernautBH.py. 
