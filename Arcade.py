@@ -1,5 +1,4 @@
 import pyautogui as MI
-import groupsFF as group
 import time
 MI.PAUSE = 0.025
 
