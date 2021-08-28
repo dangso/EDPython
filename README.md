@@ -16,6 +16,8 @@ Juggernaut script to be ran is juggernautBH.py.
 
 At the top of the file there are options to change whether it's war or not (so we search for war commanders, collect battle drops, drop bombs etc...), if you do not use a war commander with war it will still work fine, just make sure to not have war commander initially equipped or it will equip a new primary core once it runs out the first time (only the first time though). You can also set kills or battles (I usually do kills to round off my wins). If we receive a PM, we will just stop battling after the battle is over, I do not have anything special set up because I don't see a need to. If you want to do it, feel free.
 
+If there is an X button that is not detected, it should be sent to a directory called xDetectErrors (there is a placeholder image in there). You can then add that to finishBattle.py. Feel free to create another file to test this new addition.
+
 
 There is also an Arcade Bot. This is used at being at Habuki and having the page open to the main screen (so that you can see your inventory backpack). There is a place to choose the arcade and the score.
 
