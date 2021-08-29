@@ -25,4 +25,6 @@ There are also a few matrix scripts that are both very high quality (although th
 
 There are other scripts which seem self explanatory, they are also rightsided on the screen.
 
+To stop any script, you can either move your mouse to one of the four corners of the screen, or click on the terminal window and press 'ctrl c'.
+
 This has been created by Ginger.
