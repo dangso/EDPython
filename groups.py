@@ -11,7 +11,7 @@ def groupA(name, coords, NPCone):
     global static
     global group1Strike
     
-    #Smole, Static, Rex, Focused Fury
+    #Smoke, Static, Rex, Focused Fury
     if not(MI.locateCenterOnScreen("images/skills/smokeNPC.png", confidence = 0.70, region = (970,265,200,200))):
         ##Smoke
         ##MI.click(1200,707)
