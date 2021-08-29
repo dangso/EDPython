@@ -1,5 +1,4 @@
 import pyautogui as MI
-import playsound as PS
 import time
 import math
 import finishBattle as CB
@@ -14,8 +13,6 @@ PMFlag = False
 def privateChat():
     global PMFlag
     PM = MI.locateCenterOnScreen('images/skills/pm.png', confidence = 0.70, region = (1770, 210, 100, 50))
-    ##if(PM):
-        ##PS.playsound('PMSound.mp3')
     if(PM and not PMFlag):
         print("We have received a PM")
         PMFlag = True

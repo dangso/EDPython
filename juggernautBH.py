@@ -1,5 +1,4 @@
 import pyautogui as MI
-import playsound as PS
 import groups as group
 import time
 import math
@@ -42,8 +41,6 @@ def mouseMove():
 def privateChat():
     global PMFlag
     PM = MI.locateCenterOnScreen('images/skills/pm.png', confidence = 0.70, region = (1770, 210, 100, 50))
-    ##if(PM):
-        ##PS.playsound('PMSound.mp3')
     if(PM and not PMFlag):
         print("We have received a PM")
         PMFlag = True
@@ -141,7 +138,6 @@ def RealPlayer():
                     mouseMove()
                 turns = turns + 1
                 settings()
-                ##PS.playsound('PMSound.mp3')
             if bottom:
                 Human = MI.locateCenterOnScreen('images/skills/fame.png', confidence = 0.70, region = (1085, 330, 100, 70))
             else:
@@ -472,7 +468,6 @@ def Juggernaut():
 
                 Human = MI.locateCenterOnScreen('images/skills/fame.png', confidence = 0.70, region = (1085, 231, 100, 170))
                 if(Human):
-                    ##PS.playsound('PMSound.mp3')
                     numPlayers = numPlayers + 1
                     print("\t Real Human",numPlayers,"\n")
                     playerSS = "images/realPlayers/Player"+ str(numPlayers) + "_" + str(time.time()) + ".png"
