@@ -465,6 +465,7 @@ def Juggernaut():
                 PlayerFlag = True
                 MI.click(1670,835)
                 MI.sleep(0.35)
+                mouseMove()
 
                 Human = MI.locateCenterOnScreen('images/skills/fame.png', confidence = 0.70, region = (1085, 231, 100, 170))
                 if(Human):
