@@ -1,6 +1,6 @@
 This code is compiled using Python3
 
-Make sure to have pyautogui, Pillow, and opencv-python installed on your machine or this will not work. I am not going to teach you how to install python or pyautogui (however I used pip). Google exists for a reason.
+Make sure to have pyautogui, Pillow, and opencv-python installed on your machine or this will not work. I am not going to teach you how to install python or pyautogui (however I used pip3). Google exists for a reason.
 
 This code works on Windows OS with modifications to numbers or images (there are a lot of images) depending on if your resolution is different than mine. This code was used on a computer with resolution 1920x1080 with the screen halved, so effectively 960x1080 starting at 959x0. New images will need to be sized to your screen accordingly, and adjustments to the search area will be necessary if you are to not use these specifications.
 
