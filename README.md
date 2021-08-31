@@ -17,6 +17,8 @@ The build is in images, however you may have to change the energy cost around du
 
 At the top of the file there are options to change whether it's war or not (so we search for war commanders, collect battle drops, drop bombs etc...), if you do not use a war commander with war it will still work fine, just make sure to not have war commander initially equipped or it will equip a new primary core once it runs out the first time (only the first time though). You can also set kills or battles (I usually do kills to round off my wins). If we receive a PM, we will just stop battling after the battle is over, I do not have anything special set up because I don't see a need to. If you want to do it, feel free.
 
+It will drop *normal* war bombs, just make sure to get a picture of the war objective every war/new objective so it gets recognized. I am exile so I didn't care about dropping supers. However you could just add another few lines of code to click for supers if you want.
+
 If there is an X button that is not detected, it should be sent to a directory called xDetectErrors (there is a placeholder image in there). You can then add that to finishBattle.py. Feel free to create another file to test this new addition.
 
 
