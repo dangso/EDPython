@@ -12,19 +12,17 @@ This is used on medium settings.
 
 Cores to be used are Focused Fury, Frozen Rift, Improbability Gate, and Mini Rex P. If you are to use Mini Rex E, in the groups.py file in group A, change rex.png to rexE.png, and then in attack and attackHuman you might want to comment out rexNorm (with # before the line)
 
-Juggernaut script to be ran is juggernautBH.py.
-The build is in images, however you may have to change the energy cost around due to ranks. Static grenade is on 2 because of reasons of using static grenade on NPCs and then using smoke twice after being stunned by the second NPC. Having it on 2 allows me to not get 250 energy to do smoke again therefore saving a turn. Having this on 2 also allows me to focus more on shields against real players if necessary. 
+Juggernaut script to be ran is juggernautBH.py. The build is in images, however you may have to change the energy cost around due to ranks. Static grenade is on 2 because of reasons of using static grenade on NPCs and then using smoke twice after being stunned by the second NPC. Having it on 2 allows me to not get 250 energy to do smoke again therefore saving a turn. Having this on 2 also allows me to focus more on shields against real players if necessary.
 
 At the top of the file there are options to change whether it's war or not (so we search for war commanders, collect battle drops, drop bombs etc...), if you do not use a war commander with war it will still work fine, just make sure to not have war commander initially equipped or it will equip a new primary core once it runs out the first time (only the first time though). You can also set kills or battles (I usually do kills to round off my wins). If we receive a PM, we will just stop battling after the battle is over, I do not have anything special set up because I don't see a need to. If you want to do it, feel free.
 
-It will drop *normal* war bombs, just make sure to get a picture of the war objective every war/new objective so it gets recognized. I am exile so I didn't care about dropping supers. However you could just add another few lines of code to click for supers if you want.
+It will drop normal war bombs, just make sure to get a picture of the war objective every war/new objective so it gets recognized. I am exile so I didn't care about dropping supers. However you could just add another few lines of code to click for supers if you want.
 
 If there is an X button that is not detected, it should be sent to a directory called xDetectErrors (there is a placeholder image in there). You can then add that to finishBattle.py. Feel free to create another file to test this new addition.
 
-
 There is also an Arcade Bot. This is used at being at Habuki and having the page open to the main screen (so that you can see your inventory backpack). There is a place to choose the arcade and the score.
 
-There are also a few matrix scripts that are both very high quality (although the tech one is far better by nature). (Matrix is now  a 5% drop so that is unfortunate).
+There are also a few matrix scripts that are both very high quality (although the tech one is far better by nature). (Matrix is now a 5% drop so that is unfortunate).
 
 There are other scripts which seem self explanatory, they are also rightsided on the screen.
 
